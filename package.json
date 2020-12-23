@@ -1,0 +1,21 @@
+{
+  "name": "powerbi-api",
+  "version": "1.0.0",
+  "description": "API feita em node para carregamento de dados por streaming na API do Powerbi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "knex-migrate": "^1.7.4",
+    "mssql": "^6.3.0"
+  }
+}
